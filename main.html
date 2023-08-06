@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Name - Technical Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .resume {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 2px solid tomato;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: tomato;
+      color: #fff;
+      text-align: right;
+      padding: 20px 40px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: -10px;
+    }
+
+
+    h2 {
+      font-size: 28px;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .profile-picture {
+      display: block;
+      margin: 0px 20px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-top: -150px;
+      border: 5px solid white;
+      box-shadow: inset 3px 2px rgb(47, 47, 47);
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #085144;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+
+    .experience {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .education {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      font-size: 18px;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .skill-item {
+      background-color: #dd1974;
+      color: #fff;
+      padding: 2px 20px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+    .inline{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <header>
+      <div class="inline">
+        <h1>Polsani Sandeep</h1>
+        <hr/>
+      </div>
+      
+      
+      <p>Software Engineer <br/> polsani.sandeep@gmail.com  </p>
+      <img class="profile-picture" src="https://he-s3.s3.amazonaws.com/media/avatars/k1617_11615147_b42/resized/200/c482c38dsc01221.jpg" alt="Profile Picture">
+    </header>
+    <div class="section">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        Briefly introduce yourself and mention your career objective or a summary of your technical expertise.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience">
+        <strong>Software Engineer, DataGroke</strong> | 2020 - Present
+        <p>Over the past 2 years, I have gained extensive experience working with diverse technology stacks and
+          setting up base across various technologies. My expertise includes AWS Cloud, Hashicorp toolset,
+          Gitlab, QuickSight, Docker, RedShift, Kerberos, PowerBI, Java, and Cloud Optimization.</p>
+        <ul>
+          <li><small>Worked in a cloud migration project. Responsible for setting up the infrastructure, ensuring
+            security through Kerberos, and managing an EMR cluster for all the environments as per developer
+            requirements.</small></li>
+          <li><small>Developed multiple solutions to the organization to optimize the cloud spend.</small></li>
+          <li><small>Refactored Java code base to fit in the cloud with Kinesis, IOT, ECS, and AmazonMQ, improving
+            performance by 3 times.</small></li>
+          <li><small>Working with CloudStratTech-finops team in automating their manual practices (Excel) by
+            implementing a Business Intelligence tool. Responsible for data modeling, ETL pipelines, managing
+            Data lake, Redshift, and developing cloud financial dashboards with several optimization strategies.
+            My work resulted in a highly efficient and automated system that requires minimal manual intervention,
+            used by the whole organization to track costs and optimize usage.</small></li>
+        </ul>
+      </div>
+
+      <!-- Add more experiences as needed -->
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="education">
+        <strong>B.Tech, CSE</strong> | Lovely Professional University | 2020
+      </div>
+
+      <!-- Add more education details as needed -->
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="skill-list">
+          <div class="skill-item">AWS</div>
+          <div class="skill-item">JAVA</div>
+          <div class="skill-item">SQL</div>
+          <div class="skill-item">Microsoft PowerBI</div>
+          <div class="skill-item">Python</div>
+          <!-- Add more skills here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
